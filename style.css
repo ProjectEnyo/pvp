@@ -104,9 +104,6 @@ span.offline {
 	text-decoration: underline dotted;
 	cursor: help;
 }
-span.imply {
-	color: Lime;
-}
 table,
 td {
 	border: 1px solid DarkGray;
@@ -131,4 +128,7 @@ img.banner {
 }
 section {
 	overflow: auto;
+}
+span.imply {
+	color: Lime;
 }
