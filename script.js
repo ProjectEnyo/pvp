@@ -13,7 +13,7 @@ window.addEventListener("load", function() {
 			// get current map from motd.
 			// use API to get position of current
 			// map and change it accordingly.
-			document.getElementById("current-map").innerHTML = data.description.extra[4].text.trimEnd()
+			document.getElementById("current-map").innerHTML = data.description.extra[2].text.trimEnd()
 
 		})
 		.catch(error => {
